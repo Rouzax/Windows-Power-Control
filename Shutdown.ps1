@@ -23,5 +23,5 @@ $Proceed = ChoiceMenu -caption "Please Confirm Server Shutdown in 10 seconds" -m
 
 
 if ($Proceed) {
-	&C:\Windows\System32\shutdown.exe /s /t 10
+	&C:\Windows\System32\shutdown.exe /s /t 5
 }
